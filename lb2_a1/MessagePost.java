@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-
 public class MessagePost extends Post{
 
 	private String message;
@@ -18,3 +17,5 @@ public class MessagePost extends Post{
 		System.out.println("Message " + message);
 	}
 }
+
+

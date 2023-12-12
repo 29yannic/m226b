@@ -10,7 +10,6 @@ public class NewsFeed {
 	public void addPost(Post post){posts.add(post);}
 	public void show() {
 		for(Post post : posts){
-			System.out.println("---------------------");
 			post.display();
 			System.out.println();
 		}
